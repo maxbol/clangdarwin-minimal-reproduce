@@ -20,7 +20,7 @@
       in {
         devShells.default = pkgs.mkShell {
           shellHook = ''
-            export PATH=/usr/bin:$PATH
+            # export PATH=/usr/bin:$PATH
           '';
         };
       }
